@@ -69,6 +69,10 @@ namespace MagicWell
             ppList.Add(new RuneType("Puissance piège %", RuneFamily.Power, Properties.Resources.PiPer, 2, 1, 3, 10));
         }
         
+        public static List<RuneType> GetRuneTypes()
+        {
+            return ppList;
+        }
     }
 
     public enum RuneFamily
@@ -113,18 +117,32 @@ namespace MagicWell
             get { return ppName; }
         }
 
-        public String GetWeigth(RunePower power)
+        public Image Image
         {
-            int value;
-
-            switch (power)
-            {
-                case RunePower.Normal
-                    value = ppNormalValue;
-            }
+            get { return ppImage; }
         }
 
-        private int zGetValue(RunePower power)
+        public RuneFamily Family
+        {
+            get { return ppFamily; }
+        }
+
+        public Boolean HasPa
+        {
+            get { return ppPaValue != -1; }
+        }
+
+        public Boolean HasRa
+        {
+            get { return ppRaValue != -1; }
+        }
+
+        public double GetWeigth(RunePower power)
+        {
+            return GetValue(power) * ppWeigth;
+        }
+
+        public double GetValue(RunePower power)
         {
             int value = 0;
 
@@ -134,14 +152,19 @@ namespace MagicWell
                     value = ppNormalValue;
                     break;
                 case RunePower.Pa:
-                    value = ppNormalValue;
+                    value = ppPaValue;
                     break;
                 case RunePower.Ra:
-                    value = ppNormalValue;
+                    value = ppRaValue;
                     break;
             }
 
             return value;
+        }
+
+        public override string ToString()
+        {
+            return ppName;
         }
     }
 }

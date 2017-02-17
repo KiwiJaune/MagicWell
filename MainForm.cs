@@ -10,11 +10,40 @@ using System.Windows.Forms;
 
 namespace MagicWell
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        List<RuneType> ppRunes;
+        double ppWellValue;
+
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            ppRunes = RunesTypes.GetRuneTypes();
+            cboRuneType.Items.AddRange(ppRunes.ToArray());
+            cboRuneType.SelectedIndex = 0;
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            RunePanel panel = new RunePanel();
+            panel.ShowRune((RuneType)cboRuneType.SelectedItem);
+            panel.Margin = new Padding(0);
+
+            panel.WellChange += Panel_WellChange;
+
+            panelsContainer.Controls.Add(panel);
+        }
+
+        private void Panel_WellChange(RuneType rune, RunePower power, bool wellIncrease)
+        {
+            double value = rune.GetWeigth(power) * (wellIncrease ? 1 : -1);
+
+            ppWellValue += value;
+            lblWellValue.Text = ppWellValue.ToString();
         }
     }
 }
