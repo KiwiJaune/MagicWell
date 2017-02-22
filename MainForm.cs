@@ -45,5 +45,10 @@ namespace MagicWell
             ppWellValue += value;
             lblWellValue.Text = ppWellValue.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BDDParser.Parse("dofus-data.json");
+        }
     }
 }

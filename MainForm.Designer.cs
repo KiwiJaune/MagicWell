@@ -32,6 +32,7 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.panelsContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.lblWellValue = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cboRuneType
@@ -53,10 +54,10 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // flowLayoutPanel1
+            // panelsContainer
             // 
             this.panelsContainer.Location = new System.Drawing.Point(12, 39);
-            this.panelsContainer.Name = "flowLayoutPanel1";
+            this.panelsContainer.Name = "panelsContainer";
             this.panelsContainer.Size = new System.Drawing.Size(400, 500);
             this.panelsContainer.TabIndex = 3;
             // 
@@ -70,11 +71,22 @@
             this.lblWellValue.Text = "0";
             this.lblWellValue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(375, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(424, 550);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblWellValue);
             this.Controls.Add(this.panelsContainer);
             this.Controls.Add(this.btnAdd);
@@ -92,6 +104,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.FlowLayoutPanel panelsContainer;
         private System.Windows.Forms.Label lblWellValue;
+        private System.Windows.Forms.Button button1;
     }
 }
 
