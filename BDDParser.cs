@@ -8,149 +8,8 @@ using System.Threading.Tasks;
 
 namespace MagicWell
 {
-    public enum ItemType
+    static class BDDParser
     {
-        Amulette,
-        Anneau,
-        Arc,
-        Baguette,
-        Bâton,
-        Bottes,
-        Cape,
-        Ceinture,
-        Chapeau,
-        Dague,
-        Épée,
-        Faux,
-        Hache,
-        Marteau,
-        Pelle
-    }
-
-    public enum Stat
-    {
-        Agilite,
-        Chance,
-        Critique,
-        Dommage,
-        Dommage_Air,
-        Dommage_Critique,
-        Dommage_Eau,
-        Dommage_Feu,
-        Dommage_Neutre,
-        Dommage_Pousee,
-        Dommage_Terre,
-        Force,
-        Fuite,
-        PA,
-        PM,
-        Intelligence,
-        Initiative,
-        Invocation,
-        Dommage_Piege,
-        Portee,
-        Pods,
-        Prospection,
-        Puissance,
-        Puissance_Piege,
-        Resistance_Air_Fixe,
-        Resistance_Critique_Fixe,
-        Resistance_Eau_Fixe,
-        Resistance_Feu_Fixe,
-        Resistance_Neutre_Fixe,
-        Esquive_PA,
-        Resistance_Air_Pourcent,
-        Resistance_Eau_Pourcent,
-        Resistance_Feu_Pourcent,
-        Resistance_Neutre_Pourcent,
-        Resistance_Terre_Pourcent,
-        Esquive_PM,
-        Resistance_Poussee,
-        Resistance_Terre_Fixe,
-        Retrait_PA,
-        Retrait_PM,
-        Sagesse,
-        Soin,
-        Tacle,
-        Vitalite,
-        Unknown
-    }
-
-    class BDDParser
-    {
-        public class Item
-        {
-            string ppName;
-            int ppLevel;
-            Dictionary<Stat, int> ppMaxStats;
-            ItemType ppType;
-
-            public Item()
-            {
-                ppName = "";
-                ppLevel = 0;
-                ppMaxStats = new Dictionary<Stat, int>();
-                ppType = ItemType.Amulette;
-            }
-
-            public string Name
-            {
-                get
-                {
-                    return ppName;
-                }
-
-                set
-                {
-                    ppName = value;
-                }
-            }
-
-            public int Level
-            {
-                get
-                {
-                    return ppLevel;
-                }
-
-                set
-                {
-                    ppLevel = value;
-                }
-            }
-
-            public Dictionary<Stat, int> MaxStats
-            {
-                get
-                {
-                    return ppMaxStats;
-                }
-
-                set
-                {
-                    ppMaxStats = value;
-                }
-            }
-
-            public ItemType Type
-            {
-                get
-                {
-                    return ppType;
-                }
-
-                set
-                {
-                    ppType = value;
-                }
-            }
-        }
-
-        public BDDParser()
-        {
-
-        }
-
         public static List<Item> Parse(String path)
         {
             List<Item> items = new List<Item>();
@@ -193,6 +52,13 @@ namespace MagicWell
 
                                 if (! item.MaxStats.ContainsKey(s))
                                     item.MaxStats.Add(s, Int32.Parse(tabEffects[iEffect + 1]));
+                            }
+                            else if (tabEffects[iEffect].Contains("Renvoie"))
+                            {
+                                // Cas spécial rattrapage de décallage pour le renvoi dommage
+                                s = Stat.Renvoi_Dommage;
+                                item.MaxStats.Add(s, Int32.Parse(tabEffects[iEffect].Replace("Renvoie", "").Replace("dommages", "").Split('à')[1]));
+                                iEffect -= 1;
                             }
                         }
 
@@ -246,7 +112,7 @@ namespace MagicWell
                 case "re_per_neutre": res = Stat.Resistance_Neutre_Pourcent; break;
                 case "re_per_terre": res = Stat.Resistance_Terre_Pourcent; break;
                 case "re_pme": res = Stat.Esquive_PM; break;
-                case "re_pou": res = Stat.Resistance_Poussee; break;
+                case "re_pou": res = Stat.Resistance_Poussee_Fixe; break;
                 case "re_terre": res = Stat.Resistance_Terre_Fixe; break;
                 case "ret_pa": res = Stat.Retrait_PA; break;
                 case "ret_pme": res = Stat.Retrait_PM; break;

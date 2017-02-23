@@ -12,8 +12,7 @@ namespace MagicWell
 {
     public partial class MainForm : Form
     {
-        List<RuneType> ppRunes;
-        double ppWellValue;
+        List<Item> ppItems;
 
         public MainForm()
         {
@@ -22,33 +21,21 @@ namespace MagicWell
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            ppRunes = RunesTypes.GetRuneTypes();
-            cboRuneType.Items.AddRange(ppRunes.ToArray());
-            cboRuneType.SelectedIndex = 0;
+            ppItems = BDDParser.Parse("dofus-data.json").OrderBy(i => i.Name).ToList();
+
+            cboItems.Items.AddRange(ppItems.ToArray());
+
+            cboItems.SelectedIndex = 0;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            RunePanel panel = new RunePanel();
-            panel.ShowRune((RuneType)cboRuneType.SelectedItem);
-            panel.Margin = new Padding(0);
-
-            panel.WellChange += Panel_WellChange;
-
-            panelsContainer.Controls.Add(panel);
+            pnlItem.ShowItem((Item)cboItems.SelectedItem);
         }
 
-        private void Panel_WellChange(RuneType rune, RunePower power, bool wellIncrease)
+        private void pnlItem_WellChange(double wellValue)
         {
-            double value = rune.GetWeigth(power) * (wellIncrease ? 1 : -1);
-
-            ppWellValue += value;
-            lblWellValue.Text = ppWellValue.ToString();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            BDDParser.Parse("dofus-data.json");
+            lblWellValue.Text = "Puits : " + wellValue.ToString();
         }
     }
 }
