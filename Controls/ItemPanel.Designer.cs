@@ -47,7 +47,7 @@
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(400, 23);
             this.lblName.TabIndex = 5;
-            this.lblName.Text = "Item name";
+            this.lblName.Text = "Aucun équipement";
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLevel
@@ -56,7 +56,6 @@
             this.lblLevel.Name = "lblLevel";
             this.lblLevel.Size = new System.Drawing.Size(396, 13);
             this.lblLevel.TabIndex = 6;
-            this.lblLevel.Text = "Item level";
             this.lblLevel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ItemPanel

@@ -15,6 +15,7 @@ namespace MagicWell
         {
             InitializeComponent();
         }
+
         public double WellValue
         {
             get { return ppWellValue; }

@@ -42,5 +42,10 @@ namespace MagicWell
         {
             pnlItem.WellValue = 0;
         }
+
+        private void btnParse_Click(object sender, EventArgs e)
+        {
+            pnlItem.WellValue += Parser.ParseReliquat(txtMsg.Text);
+        }
     }
 }

@@ -22,7 +22,6 @@ namespace MagicWell
             ppList.Add(new RuneType(Stat.Sagesse, RuneFamily.Base, Properties.Resources.Sa, 3, 1, 3, 10));
             ppList.Add(new RuneType(Stat.Initiative, RuneFamily.Base, Properties.Resources.Ini, 0.1, 10, 30, 100));
 
-            ppList.Add(new RuneType(Stat.Dommage, RuneFamily.Dommage, Properties.Resources.Do, 20, 1, -1, -1));
             ppList.Add(new RuneType(Stat.Dommage_Air, RuneFamily.Dommage, Properties.Resources.DoAir, 5, 1, 3, -1));
             ppList.Add(new RuneType(Stat.Dommage_Eau, RuneFamily.Dommage, Properties.Resources.DoEau, 5, 1, 3, -1));
             ppList.Add(new RuneType(Stat.Dommage_Terre, RuneFamily.Dommage, Properties.Resources.DoTerre, 5, 1, 3, -1));
@@ -31,6 +30,7 @@ namespace MagicWell
             ppList.Add(new RuneType(Stat.Dommage_Pousee, RuneFamily.Dommage, Properties.Resources.DoPou, 5, 1, 3, -1));
             ppList.Add(new RuneType(Stat.Dommage_Critique, RuneFamily.Dommage, Properties.Resources.DoCri, 5, 1, 3, -1));
             ppList.Add(new RuneType(Stat.Dommage_Piege, RuneFamily.Dommage, Properties.Resources.Pi, 5, 1, 3, -1));
+            ppList.Add(new RuneType(Stat.Dommage, RuneFamily.Dommage, Properties.Resources.Do, 20, 1, -1, -1));
 
             ppList.Add(new RuneType(Stat.Resistance_Air_Pourcent, RuneFamily.Resistance, Properties.Resources.RePerAir, 6, 1, -1, -1));
             ppList.Add(new RuneType(Stat.Resistance_Eau_Pourcent, RuneFamily.Resistance, Properties.Resources.RePerEau, 6, 1, -1, -1));
@@ -49,12 +49,6 @@ namespace MagicWell
             ppList.Add(new RuneType(Stat.Pods, RuneFamily.Helper, Properties.Resources.Pod, 0.25, 10, 30, 100));
             ppList.Add(new RuneType(Stat.Prospection, RuneFamily.Helper, Properties.Resources.Prospe, 3, 1, 3, -1));
 
-            ppList.Add(new RuneType(Stat.PA, RuneFamily.Special, Properties.Resources.GaPa, 100, 1, -1, -1));
-            ppList.Add(new RuneType(Stat.PM, RuneFamily.Special, Properties.Resources.GaPme, 90, 1, -1, -1));
-            ppList.Add(new RuneType(Stat.Portee, RuneFamily.Special, Properties.Resources.Po, 51, 1, -1, -1));
-            ppList.Add(new RuneType(Stat.Invocation, RuneFamily.Special, Properties.Resources.Invo, 30, 1, -1, -1));
-            ppList.Add(new RuneType(Stat.Chasse, RuneFamily.Special, Properties.Resources.Chasse, 5, 1, -1, -1));
-
             ppList.Add(new RuneType(Stat.Tacle, RuneFamily.SlowDown, Properties.Resources.Tac, 4, 1, 3, -1));
             ppList.Add(new RuneType(Stat.Fuite, RuneFamily.SlowDown, Properties.Resources.Fui, 4, 1, 3, -1));
             ppList.Add(new RuneType(Stat.Retrait_PA, RuneFamily.SlowDown, Properties.Resources.RetPa, 7, 1, 3, -1));
@@ -67,6 +61,12 @@ namespace MagicWell
             ppList.Add(new RuneType(Stat.Critique, RuneFamily.Power, Properties.Resources.Cri, 10, 1, -1, -1));
             ppList.Add(new RuneType(Stat.Renvoi_Dommage, RuneFamily.Power, Properties.Resources.DoRen, 10, 1, -1, -1));
             ppList.Add(new RuneType(Stat.Puissance_Piege, RuneFamily.Power, Properties.Resources.PiPer, 2, 1, 3, 10));
+
+            ppList.Add(new RuneType(Stat.PA, RuneFamily.Special, Properties.Resources.GaPa, 100, 1, -1, -1));
+            ppList.Add(new RuneType(Stat.PM, RuneFamily.Special, Properties.Resources.GaPme, 90, 1, -1, -1));
+            ppList.Add(new RuneType(Stat.Portee, RuneFamily.Special, Properties.Resources.Po, 51, 1, -1, -1));
+            ppList.Add(new RuneType(Stat.Invocation, RuneFamily.Special, Properties.Resources.Invo, 30, 1, -1, -1));
+            ppList.Add(new RuneType(Stat.Chasse, RuneFamily.Special, Properties.Resources.Chasse, 5, 1, -1, -1));
         }
         
         public static List<RuneType> GetRuneTypes()
@@ -127,6 +127,11 @@ namespace MagicWell
         public String Name
         {
             get { return ppStat.GetNiceName();  }
+        }
+
+        public double UnitWeight
+        {
+            get { return ppWeigth; }
         }
 
         public double GetWeigth(RunePower power)
