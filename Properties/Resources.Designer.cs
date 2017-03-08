@@ -93,9 +93,9 @@ namespace MagicWell.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Cri {
+        internal static System.Drawing.Bitmap Close16 {
             get {
-                object obj = ResourceManager.GetObject("Cri", resourceCulture);
+                object obj = ResourceManager.GetObject("Close16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace MagicWell.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Cri1 {
+        internal static System.Drawing.Bitmap Cri {
             get {
-                object obj = ResourceManager.GetObject("Cri1", resourceCulture);
+                object obj = ResourceManager.GetObject("Cri", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -7,12 +7,18 @@ namespace MagicWell
     {
         double ppWellValue;
 
+
         public delegate void WellValueChangeHandler(double wellValue);
         public event WellValueChangeHandler WellChange;
 
         public ItemPanel()
         {
             InitializeComponent();
+        }
+        public double WellValue
+        {
+            get { return ppWellValue; }
+            set { ppWellValue = value; oOnWellChange(); }
         }
 
         public void ShowItem(Item item)

@@ -118,145 +118,145 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Vi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Vi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Po" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Po.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Cri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Age" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Age.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Cha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chasse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Chasse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cri1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Cri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Do" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Do.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DoAir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\DoAir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DoEau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\DoEau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DoFeu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\DoFeu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DoNeutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\DoNeutre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DoPer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\DoPer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DoPou" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\DoPou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DoRen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\DoRen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DoTerre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\DoTerre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Fo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fui" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Fui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GaPa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\GaPa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GaPme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\GaPme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Ine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Ini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Invo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Invo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Pi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PiPer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\PiPer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pod" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Pod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Prospe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Prospe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ReAir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ReAir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ReCri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ReCri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ReEau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ReEau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ReFeu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ReFeu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ReNeutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ReNeutre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePerAir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePerAir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePerEau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePerEau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePerFeu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePerFeu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePerNeutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePerNeutre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePerTerre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePerTerre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RePou" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RePou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ReTerre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ReTerre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RetPa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RetPa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RetPme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\RetPme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Sa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="So" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\So.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Tac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Pod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePerAir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePerAir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Fo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoTerre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\DoTerre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PiPer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\PiPer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePerTerre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePerTerre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DoCri" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\DoCri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReTerre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ReTerre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePerNeutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePerNeutre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetPa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RetPa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Ine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePerFeu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePerFeu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReCri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ReCri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Invo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Invo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Po" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Po.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoFeu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\DoFeu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetPme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RetPme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePerEau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePerEau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Tac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Ini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReFeu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ReFeu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GaPme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\GaPme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Vi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReNeutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ReNeutre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Do" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Do.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chasse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Chasse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prospe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Prospe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Sa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Cha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReEau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ReEau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Cri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReAir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ReAir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Fui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoEau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\DoEau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GaPa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\GaPa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoAir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\DoAir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoNeutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\DoNeutre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RePme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\RePme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoPou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\DoPou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Age" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Age.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

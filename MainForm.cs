@@ -37,5 +37,10 @@ namespace MagicWell
         {
             lblWellValue.Text = "Puits : " + wellValue.ToString();
         }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            pnlItem.WellValue = 0;
+        }
     }
 }

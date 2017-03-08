@@ -32,6 +32,7 @@
             this.btnShowItem = new System.Windows.Forms.Button();
             this.lblWellValue = new System.Windows.Forms.Label();
             this.pnlItem = new MagicWell.ItemPanel();
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cboItems
@@ -59,7 +60,7 @@
             this.lblWellValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.lblWellValue.Location = new System.Drawing.Point(277, 11);
             this.lblWellValue.Name = "lblWellValue";
-            this.lblWellValue.Size = new System.Drawing.Size(138, 23);
+            this.lblWellValue.Size = new System.Drawing.Size(116, 23);
             this.lblWellValue.TabIndex = 4;
             this.lblWellValue.Text = "Puits : 0";
             this.lblWellValue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -72,11 +73,22 @@
             this.pnlItem.TabIndex = 6;
             this.pnlItem.WellChange += new MagicWell.ItemPanel.WellValueChangeHandler(this.pnlItem_WellChange);
             // 
+            // btnReset
+            // 
+            this.btnReset.Image = global::MagicWell.Properties.Resources.Close16;
+            this.btnReset.Location = new System.Drawing.Point(399, 13);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(23, 23);
+            this.btnReset.TabIndex = 7;
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(424, 613);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.pnlItem);
             this.Controls.Add(this.lblWellValue);
             this.Controls.Add(this.btnShowItem);
@@ -94,6 +106,7 @@
         private System.Windows.Forms.Button btnShowItem;
         private System.Windows.Forms.Label lblWellValue;
         private ItemPanel pnlItem;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 
